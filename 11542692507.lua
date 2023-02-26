@@ -1,5 +1,5 @@
 local data = {"10kactives","10kfavorites","10klikes","150kmembers","15klikes","1KMEMBERS","1kactives","1kfavorites","1klikes","1mvisits","200kmembers","25KLIKES","35klikes","45klikes","50KVISITS","5MVISITS","5kfavorites","5klikes","60KLIKES","Animeblaze","D1SGUISEDYT","Ezequiel_live","FUYUKI","NeelsTV","Sub2itzjustsimple","Subpaidos","SunHig4k","THXGUYS1","THXGUYS2","Th1ksyt","UPD1.5","UPDATE2.5","UPDATE3","UPDATE3DELAY","UPDATE4","Update5","alonezinho","blackwolf4khoras","bolinhoblox","chuckgamer8k","daetoigames5k","emperadormaxiyt","flashziin10k","freespins","frostzeraplays","h4ruz6k","just_lastico","l3ni","leozimgamers","mazterlindo","memYT","nefron2klenda","nicholas1.5k","opensamu","release","sorryforkaido","sorryforshutdowns","sorryforshutdowns2","sub2asianplayzyt","subfiverelic","subopen","subpaidos","subsppcaka","subsyuki","subtionutella","subtopaidasc","thanksleosubs","update2","update2.5","update4.5","​leoniver1ano"}
 for _,code in pairs(data) do
-    task.wait(1)
+    task.wait(3)
     game.ReplicatedStorage.Remotes.Server:FireServer({"Codes",code})
 end
